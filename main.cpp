@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 int main() {
-	int nombre = 0;
+	cout << "hello, world!" << endl;
 }
