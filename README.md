@@ -23,3 +23,4 @@ Pour répondre à la demande du client, nous avons crée un programme en C++ qui
 ## 3. Diagramme de sequence
 Image integrée dans le github sous le nom de diag-de-sequence.png
 et hebergée sur le lien suivant https://ibb.co/tPgf2Kn (valide 6 mois)
+![Diagramme de Séquence](https://github.com/TFAURE56/Librairie_Temperature/blob/main/diag-de-sequence.png)
