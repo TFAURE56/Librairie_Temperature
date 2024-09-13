@@ -2,6 +2,7 @@
 
 # Projet : Lecture de la Température avec MCP9808 sur Raspberry Pi
 
+-
 Pour répondre à la demande du client, nous avons crée un programme en C++ qui tourne sur un Raspberry Pi et qui permet de lire la température à partir du module MCP9808. Le capteur utilise une connexion I2C. Nous avons utiliser la bibliothèque `wiringPi` pour la communication.
 -
 ## Voici la liste du matériel et des logiciels dont nous avons eu besoin.
