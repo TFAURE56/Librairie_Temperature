@@ -21,5 +21,5 @@ Pour répondre à la demande du client, nous avons crée un programme en C++ qui
 - **i2c-tools** : Outils pour scanner et tester les périphériques I2C.
 
 ## 3. Diagramme de sequence
-Image integré dans le github sous le nom de diag-de-sequence.png
-ou hebergé sur le lien suivant https://ibb.co/tPgf2Kn
+Image integrée dans le github sous le nom de diag-de-sequence.png
+et hebergée sur le lien suivant https://ibb.co/tPgf2Kn
