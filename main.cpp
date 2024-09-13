@@ -10,6 +10,9 @@ int main() {
 	wiringPiI2CWriteReg16(fd, 0x01, 0);
 
 	// Lire le registre de température
-	cout << "Température : " << wiringPiI2CReadReg16(fd, 0x05) << endl;
+	float Temp = wiringPiI2CReadReg16(fd, 0x05);
+
+	// Afficher la température sur la console
+	cout << "Temperature : " << Temp << "C" << endl;
 
 }
