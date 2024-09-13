@@ -20,4 +20,4 @@ Pour répondre à la demande du client, nous avons crée un programme en C++ qui
 - **wiringPi** : Bibliothèque pour le contrôle des GPIO du Raspberry Pi..
 - **i2c-tools** : Outils pour scanner et tester les périphériques I2C.
 
-## 3. Diagramme de sequence dans le github sous le com de diag-de-sequence.png
+## 3. Diagramme de sequence dans le github sous le nom de diag-de-sequence.png
