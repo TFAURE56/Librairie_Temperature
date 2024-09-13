@@ -20,19 +20,29 @@ Pour répondre à la demande du client, nous avons crée un programme en C++ qui
 - **wiringPi** : Bibliothèque pour le contrôle des GPIO du Raspberry Pi..
 - **i2c-tools** : Outils pour scanner et tester les périphériques I2C.
 
-@startuml
-actor Utilisateur
-participant "Programme C++" as Prog
-participant "Capteur MCP9808" as MCP9808
+##Diagramme de sequence dans le github
 
-Utilisateur -> Prog: Lance le programme
-Prog -> MCP9808: Initialise la connexion I2C
+O
 
-loop chaque seconde
-    Prog -> MCP9808: Demande de lecture de température
-    MCP9808 -> Prog: Renvoie la donnée de température brute
-    Prog -> Prog: Convertit la donnée en degrés Celsius
-    Prog -> Utilisateur: Affiche la température en degrés Celsius
-    Prog -> Prog: Attendre 1 seconde
-end
-@enduml
+À
+
+Utilisateur Programme C++ Capteur MCP9808
+
+!\ Lance le programme
+
+Initialise la connexion I2C
+
+| Iooe / [chaque seconde]
+
+Demande de lecture de température
+
+\>
+
+< Renvoie la donnée de température brute \Convertit la donnée en degrés Celsius
+
+Affiche la température en degrés Celsius ! ;
+
+: \Attendre 1 seconde
+
+‘Programme C++ ‘ Capteur MCP9808
+
